@@ -24,5 +24,6 @@ def findPeakElement(arr: [int]) -> int:
         print(low, high, mid)
 
 
-arr = [1, 2, 3, 4, 5]
-findPeakElement(arr)
+if __name__ == "__main__":
+    arr = [1, 2, 3, 4, 5]
+    findPeakElement(arr)
